@@ -1,0 +1,29 @@
+/[aeiou]/g   #finds any vowel
+/[0123456789]/g #finds any digit
+
+/\w/g        #finds any wordy thing (letter _ numbers)
+/\W/g        #finds anything thats not wordy thing
+/\s/g        #finds spaces
+/\d/g        #finds any digit
+
+
+/\d\d\d-\d\d-\d\d\d\d/g     #finds a social sercerty number
+
+/\d{3}-\d{2}-\d{4}/g        #finds SSN, multiplies the thing before {} by the number in the brackets
+
+/(lo)+l/g    #finds lololololol
+
+/\d{3,4}/g   #finds any three or four digit number
+
+/something/g   #the something is called a pattern
+
+
+``````````````````For python````````````````````
+
+import re
+re.sub("\d", "X", "The year was 1927, and it was cold.")      #look for any digit and replace it with X. 
+
+re.sub("(20)\d\d", r"\1XX", "The year was 2027, and it was cold.")      #returns some string but with 20XX as the date
+
+
+
