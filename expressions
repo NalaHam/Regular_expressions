@@ -26,4 +26,4 @@ re.sub("\d", "X", "The year was 1927, and it was cold.")      #look for any digi
 re.sub("(20)\d\d", r"\1XX", "The year was 2027, and it was cold.")      #returns some string but with 20XX as the date
 
 
-
+Look here for examples: https://automatetheboringstuff.com/2e/chapter7/
