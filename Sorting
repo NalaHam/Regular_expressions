@@ -1,0 +1,23 @@
+l = [2,3,7,1,4,8]
+
+l.sort()                #gives the same list but changes order [1,2,3,4,7,8]
+
+l.sort(reverse = True)  #gives [8,7,4,3,2,1]
+
+sorted(l)               #gives a new copy of the list that is sorted
+
+Bubble sort:
+
+7,2,8,9,1,6 
+
+looks at twos and sees if they are sorted or not. 
+looks at 7,2 and sorted them so 2,7
+
+2,7,8,9,1,6
+
+looks through up to 9,1 and sorts them so its 1,9 
+etc.. 
+then does the whole process again until all are sorted. 
+
+
+
